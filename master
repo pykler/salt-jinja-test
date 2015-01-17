@@ -1,0 +1,11 @@
+# vim: set ft=yaml:
+
+file_client: local
+renderer: jinja | yaml
+root_dir: /Users/hatem/projects/tmp/salt-jinja-test/
+file_roots:
+    base:
+        - /Users/hatem/projects/tmp/salt-jinja-test/roots
+pillar_roots:
+    base:
+        - /Users/hatem/projects/tmp/salt-jinja-test/pillars

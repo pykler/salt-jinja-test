@@ -1,0 +1,8 @@
+-- begin
+{% if user is defined -%}
+USER: {{ user }}
+{% endif -%}
+{% if someothervar is defined -%}
+SOMEOTHERVAR: {{ someothervar }}
+{% endif -%}
+-- end

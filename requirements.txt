@@ -1,0 +1,1 @@
+-e git+https://github.com/saltstack/salt.git@5c2ce4c0bb3615b4e1a1e10af582aa36b8bf559b#egg=salt-dev
